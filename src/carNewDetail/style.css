@@ -1,0 +1,120 @@
+.contentDetail{
+        width: 896px;
+        margin: auto;
+        background: #494e67;
+    }
+
+    .contentDetail_imgtop{
+        margin-top: 460px;
+        width: 100%;
+    }
+
+    .contentDetail_imgbottom{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .fcontentDetail{
+        position: relative;
+        width: 896px;
+        margin: auto;
+    }
+
+    .contentDetail-new{
+        width: 825px;
+        padding-top: 30px;
+        padding-left: 36px;
+        padding-right: 36px;
+        position: relative;
+        z-index: 1;
+        padding-bottom: 70px;
+    }
+
+    .contentDetail-new_title{
+        height: 19px;
+        border-bottom: 1px solid #5c627c;
+        padding-bottom: 10px;
+    }
+
+    .contentDetail-new_title a{
+        text-decoration: none;
+    }
+
+    .contentDetail-new_title p,.contentDetail-new_title a{
+        display: inline-block;
+        color: #8f99c4;
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+    }
+    .contentDetail-new_title .contentDetail-new_title_detail{
+        color:#d5dcf9;
+    }
+
+    .contentDetail-new_reltitle{
+        height: 67px;
+        border-bottom: 1px dashed #5c627c;
+        position: relative;
+        padding-top: 30px;
+    }
+
+    .contentDetail-new_reltitle_name{
+        text-align: center;
+        font-size: 24px; 
+        line-height: 24px;
+        margin: 0;
+        padding: 0;
+        color:white;
+    }
+
+    .contentDetail-new_reltitle_info{
+        text-align: center;;
+        margin: 17px 0 12px 0;
+        padding: 0;
+    }
+
+    .contentDetail-new_reltitle_info p,.contentDetail-new_reltitle_info img{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contentDetail-new_reltitle_info p{
+        height: 14px;
+        color: white;
+        opacity: 0.35;
+        font-size: 14px;
+    }
+
+    .weixin .weibo{
+        width: 21px;
+        height: 14px;
+    }
+
+    .qq{
+        width: 17px;
+        height: 14px;
+    }
+
+    .contentDetail-new_content{
+        margin-top: 20px;
+    }
+
+    .contentDetail-new_content img{
+        width: 100%;
+    }
+
+     .wrap {
+        width: 100%;
+        background: #1a033b;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .wrapimg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }

@@ -1,0 +1,55 @@
+/**
+* 常用工具类
+*/
+
+
+/* 浮动 */
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+
+/* 清除浮动 */
+
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+
+/* 隐藏元素 */
+
+.hidden {
+  display: none
+}
+
+
+/* 超出显示省略号 */
+
+
+/* 单行 */
+
+.overflow-ellipsis {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.no-ellipsis {
+  overflow: auto;
+  text-overflow: initial;
+  white-space: normal;
+}

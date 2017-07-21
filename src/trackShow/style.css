@@ -1,0 +1,157 @@
+html,body {
+  height: 1808px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  background: url("/static/images/trackShow/track_show.png") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.container .content {
+  width: 1104px;
+  height: 1098px;
+  margin: 460px auto 40px auto;
+  position: relative;
+  background: url("/static/images/carShow/car_bg_01.png") no-repeat;
+  background-size: cover;  }
+.title{
+  padding: 30px 0 7px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #8f99c4;
+  color: #8f99c4;
+}
+.title .title-last {
+  color: #d5dcf9;
+}
+.track {
+  margin: 20px 30px 0 30px;
+}
+.track-list {
+  width: 240px;
+  float: left;
+  margin-bottom: 25px;
+  margin-right: 24px;
+}
+.track-list:hover {
+  cursor:pointer;
+}
+.track-list-img{
+  display: block;
+  width: 240px;
+  height: 179px;
+}
+.track-list-name{
+  color: #fdfffe;
+  text-align: center;
+  padding-top: 10px;
+}
+.mask {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  /*background: #080516;*/
+  z-index: 1;
+  display:none;
+}
+.show-mask {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: #080516;
+  z-index: 1;
+  display:none;
+  opacity: .3;
+}
+.mask-container {
+  width: 830px;
+  height: 661px;
+  background: #494e67;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -330px;
+  margin-left: -415px;
+  z-index: 99;
+}
+.mask-container .mask-img {
+  height: 500px;
+}
+.mask-container .mask-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.mask-name{
+  font-size: 18px;
+  color: #ffffff;
+  z-index: 20;
+  padding: 17px 0 17px 20px;
+}
+.mask-des{
+  font-size: 14px;
+  color: #ffffff;
+  z-index: 20;
+  padding: 0 0 17px 20px;
+  line-height: 20px;
+}
+.mask-close {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  background: url("/static/images/trackShow/close.png") no-repeat;
+  background-size: cover;
+  top: 0;
+  right: -40px;
+}
+.mask-close:hover{
+  cursor:pointer;
+}
+
+.content-paging {
+  width: 100%;
+  height: 32px;
+  position: absolute;
+  text-align: center;
+  bottom: 56px;
+}
+
+.content-paging a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background: #3a3f53;
+  line-height: 32px;
+}
+
+.Numone {
+  width: 32px;
+  height: 32px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.content-paging-last {
+  width: 64px;
+  height: 32px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.content-paging-next {
+  width: 64px;
+  height: 32px;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.active{
+  background: red!important;
+}

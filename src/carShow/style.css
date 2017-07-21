@@ -1,0 +1,217 @@
+html,body {
+  height: 1488px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  background: url("/static/images/carShow/car_show.png") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.container .content {
+  width: 1100px;
+  height: 789px;
+  margin: 460px auto 40px auto;
+  background: url("/static/images/carShow/car_bg_01.png") no-repeat;
+  background-size: cover;  }
+.title{
+  padding: 30px 0 7px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #8f99c4;
+  color: #8f99c4;
+}
+.title .title-last {
+  color: #d5dcf9;
+}
+.swiper{
+  height: 180px;
+  overflow: hidden;
+}
+.swiper-content {
+  height: 121px;
+  margin-top: 29px;
+}
+.swiper-left {
+  width: 33px;
+  height: 121px;
+  float: left;
+  background: url("/static/images/carShow/car_left.png") no-repeat center;
+  margin-right: 17px;
+
+}
+.swiper-left:hover {
+  cursor:pointer;
+}
+.swiper-right:hover {
+  cursor:pointer;
+}
+.swiper-right {
+  width: 33px;
+  height: 121px;
+  float: left;
+  background: url("/static/images/carShow/car_right.png") no-repeat center;
+  margin-left: 17px;
+}
+.swiper-container {
+  height: 121px!important;
+  width: 940px!important;
+  overflow: hidden;
+  float: left;
+}
+.swiper-container .swiper-wrapper .swiper-slide{
+  background: red;
+  width: 171px!important;
+  text-align: center;
+  line-height: 121px;
+  margin-right: 20px;
+}
+/*.swiper-container .swiper-wrapper .swiper-slide:hover{*/
+  /*cursor:pointer;*/
+  /*border: 1px solid #fff;*/
+/*}*/
+.swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.show{
+  height: 497px;
+  width: 1031px;
+  margin: 0 auto;
+  background: url("/static/images/carShow/car_slide.png") no-repeat;
+  background-size: cover;
+}
+.car-count {
+  width: 420px;
+  height: 100%;
+  float: left;
+  margin-left: 30px;
+}
+.car-single {
+  width: 581px;
+  height: 100%;
+  float: left;
+}
+.car-name {
+  font-size: 40px;
+  color: #fff;
+  margin: 39px 0;
+}
+.car-des {
+  font-size: 14px;
+  opacity: .5;
+}
+.car-detail{
+  height: 27px;
+  margin-bottom: 24px;
+}
+.car-detail .car-detail-left {
+  font-size: 24px;
+  color: #ffffff;
+  float: left;
+}
+.car-detail .car-detail-right {
+  float: left;
+  width: 300px;
+  height: 27px;
+  background: url("/static/images/carShow/progress_bottom.png") no-repeat;
+  background-size: cover;
+  margin-left: 10px;
+}
+.car-detail .car-detail-right .car-progress{
+  height: 27px;
+}
+.car-progress-left{
+  float: left;
+  width: 15px;
+  height: 27px;
+  background: url("/static/images/carShow/progress_left.png");
+}
+.car-progress-center{
+  float: left;
+  /*width最宽为270px*/
+  width: 50px;
+  height: 27px;
+  text-align: right;
+  line-height: 27px;
+  font-size: 20px;
+  color: #ffffff;
+  background: url("/static/images/carShow/progress_center.png");
+}
+.car-progress-right{
+  float: left;
+  width: 15px;
+  height: 27px;
+  background: url("/static/images/carShow/progress_right.png");
+}
+
+.car-get{
+  font-size: 18px;
+  color: #ffffff;
+  opacity: .6;
+  padding-top: 15px;
+}
+.car-single-button{
+  width: 84px;
+  height: 31px;
+  background: #000;
+  font-size: 14px;
+  color: #ffffff;
+  opacity: .3;
+  text-align: center;
+  line-height: 31px;
+  border-radius: 18px;
+  margin-top: 20px;
+  float: right;
+  margin-right: 18px;
+}
+.car-img{
+  width: 502px;
+  height: 352px;
+  margin: 73px  auto 0 auto;
+}
+.car-img img {
+  height: 100%;
+  width: 100%;
+}
+.car-ul{
+  height: 25px;
+  margin-top: 20px;
+  margin-left: 32px;
+}
+.car-li{
+  float: left;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.car-li-text {
+  height: 25px;
+  line-height: 25px;
+  font-size: 20px;
+  color: #fff;
+  float: left;
+  margin-right: 10px;
+}
+.car-li-1{
+  background-color: red;
+}
+.car-li-2{
+  background-color: #fff0f5;
+}
+.car-li-3{
+  background-color: #999999;
+}
+.car-li-4{
+  background-color: palegoldenrod;
+}
+.car-li-5{
+  background-color: blueviolet;
+}
+.car-li-6{
+  background-color: floralwhite;
+}

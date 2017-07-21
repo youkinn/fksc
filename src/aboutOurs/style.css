@@ -1,0 +1,58 @@
+html,body {
+  height: 1618px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  background: url("/static/images/aboutOurs/about.png") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.container .content {
+  width: 1104px;
+  height: 910px;
+  margin: 460px auto 40px auto;
+  background: url("/static/images/carShow/car_bg_01.png") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.content-title {
+  margin: 42px 33px 0 33px;
+}
+.content-image{
+  width: 170px;
+  height: 35px;
+  background: url("/static/images/aboutOurs/about_button.png");
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 35px;
+  padding-left: 10px;
+}
+.content-slide:hover {
+  cursor:pointer;
+}
+.content-text {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 20px;
+  padding-top: 20px;
+}
+.content-link {
+  height: 105px;
+  margin-top: 20px;
+}
+.content-slide {
+  height: 105px;
+  width: 180px;
+  float: left;
+  margin-right: 17px;
+}
+.content-slide img {
+  height: 100%;
+  width: 100%;
+  display: block;
+}

@@ -1,0 +1,189 @@
+body{
+  overflow: hidden;
+  background-color: #1a033b;
+}
+
+
+/* PAGE-HEADER START */
+.tm__layout-header{
+  text-align: center;
+  background-color: #000;
+  opacity: 0.7;
+}
+
+.tm__layout-header .header{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.tm__layout-header .logo,
+.tm__layout-header .menu{
+  height: 80px;
+}
+
+.tm__layout-header .logo{
+  position: relative;
+  width: 229px;
+  text-align: left;
+}
+
+.tm__layout-header .menu{
+  width: 871px;
+}
+
+.tm__layout-header .logo img{
+  width: 160px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.tm__layout-header .menu-list{
+  text-align: center;
+  font-size: 16px;
+  color: #cfcfcf;
+}
+
+.tm__layout-header .menu-item{
+  width: 113px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.tm__layout-header .menu-item:hover{
+  cursor: pointer;
+  background-color: #272727;
+}
+
+.tm__layout-header .menu-item a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #cfcfcf;
+}
+
+.tm__layout-header .menu-item a:hover{
+  text-decoration: none;
+}
+
+.tm__layout-header  .menu-item.current a{
+  color: #fff;
+}
+
+/* PAGE-HEADER END */
+
+/* PAGE-MAIN STERT */
+.tm__layout-main{
+  position: relative;
+}
+
+.tm__layout-main .content{
+  width: 1100px;
+  margin: 0 auto;
+}
+/* PAGE-MAIN */
+
+/* DOWNLOAD-BOX START */
+
+.tm__download-box {
+  width: 186px;
+  height: 352px;
+  background: url(/static/images/home/download-bg.png) no-repeat;
+}
+
+.tm__download-box .download{
+  padding: 10px;
+  text-align: center;
+}
+
+.tm__download-box .download .android,
+.tm__download-box .download .ios,
+.tm__download-box .download .simulator{
+  width: 165px;
+  height: 45px;
+  line-height: 45px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tm__download-box .download .android{
+  background-color: #ef3e4b;
+}
+
+.tm__download-box .download .ios{
+  background-color: #05c0be;
+}
+
+.tm__download-box .download .simulator{
+  background-color: #252836;
+}
+
+.tm__download-box .download .qrcode{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: url(/static/images/home/qrcode-bg.png) no-repeat left top;
+}
+
+.tm__download-box .download .qrcode-desc{
+  height: 13px;
+  line-height: 13px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-size: 13px;
+  color: #666;
+  cursor: default;
+}
+
+/* DOWNLOAD-BOX END */
+
+/* PAGE-FOOTER START */
+
+.tm__layout-footer{
+  height: 125px;
+  background-color: #0a080c;
+}
+
+.tm__layout-footer .footer{
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer .quick-link{
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #4d536d;
+}
+
+.footer .quick-link li{
+  width: 88px;
+  height: 14px;
+  line-height: 14px;
+  border-right: solid #4e546e 1px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.footer .quick-link li.last{
+  border: none;
+}
+
+.footer .quick-link li.first{
+  margin-left: 348px;
+}
+
+.footer .copyright{
+  margin-bottom: 10px;
+  color: #4e546e;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  cursor: default;
+}
+/* PAGE-FOOTER END */
